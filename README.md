@@ -10,10 +10,9 @@ Data Quality Check:
 Before conducting the analysis, we performed a thorough data quality check to ensure data integrity and consistency. This process involved identifying and handling missing values, removing duplicates, and addressing any inconsistencies in the dataset.
 
 DATA CLEANING:
-1. choose subset of features important
-2. drop duplicated rows based on listing number
-3. convert datatypes of TotalTrades and TotalInquiries to int , ListingCreationDate to datetime
-4. fill in missing values of occupation and DebtToIncomeRatio
-5. change listing category numeric to string.
-6. change all columns to lower case for easy coding navigations so as to avoid errors
-7.remove irrelivant rows and columns that are not beneficial to the analysis so as to have a consistent data, for move defined result
+1. drop duplicated rows based on listing number
+2. convert datatypes of TotalTrades and TotalInquiries to int , ListingCreationDate to datetime
+3. fill in missing values of occupation and DebtToIncomeRatio
+4. change listing category numeric to string.
+5. change all columns to lower case for easy coding navigations so as to avoid errors
+6.remove irrelivant rows and columns that are not beneficial to the analysis so as to have a consistent data, for move defined result
