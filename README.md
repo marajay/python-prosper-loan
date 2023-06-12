@@ -9,7 +9,7 @@ we will conduct an exploratory data analysis on the dataset. We will use Python 
 Data Quality Check:
 Before conducting the analysis, we performed a thorough data quality check to ensure data integrity and consistency. This process involved identifying and handling missing values, removing duplicates, and addressing any inconsistencies in the dataset.
 
-Data cleaning:
+DATA CLEANING:
 1. choose subset of features important
 2. drop duplicated rows based on listing number
 3. convert datatypes of TotalTrades and TotalInquiries to int , ListingCreationDate to datetime
@@ -18,7 +18,7 @@ Data cleaning:
 6. change all columns to lower case for easy coding navigations so as to avoid errors
 7.remove irrelivant rows and columns that are not beneficial to the analysis so as to have a consistent data, for move defined result
 
-Insights:
+INSIGHTS:
 January has the highest number of loans listed as expected from starting of new year , whereas april sees the least number of loans listed. There is an upward trend in loans listed with each passing year
 
 The distribution of APR looks multimodal. A small peak centered at 0.1, a large peak centered at 0.2. There is also a small peak centered 0.3. Additionally, there is a very shape peak between 0.35 and 0.36. Only very few loans have APR greater than 0.43.
